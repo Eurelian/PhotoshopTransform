@@ -1,0 +1,436 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto;
+}
+
+h4 {
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+p {
+    padding: 10px;
+}
+
+
+
+
+.header-style {
+
+    background-image: url("assets/design-assets/bgk-header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(8, 186, 182, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-light {
+    background-color: none;
+}
+
+.navbar.scrolled {
+    background: rgba(29, 29, 31, 0.2);
+    backdrop-filter: blur(6px);
+    box-shadow: 0.1px 0.1px 3px 0.1px #222222;
+    transition: background 500ms;
+
+}
+
+@media (max-width: 991px){
+    .navbar{
+        background: rgba(29, 29, 31, 0.2);
+    backdrop-filter: blur(6px);
+    box-shadow: 0.1px 0.1px 3px 0.1px #222222;
+    transition: background 500ms;
+    }
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
+
+
+.custom-toggler.navbar-toggler {
+    border-color: #08bab6;
+}
+
+
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #08bab6;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: roboto;
+    font-size: 0.87em;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #08bab6;
+}
+
+
+
+.navbar {
+    padding-left:20%;
+    padding-right:20%;
+    min-height: 40px;
+}
+
+a.navbar-brand {
+    padding: 0px;
+    height: auto;
+}
+
+
+.logotext {
+    color: #08bab6;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: roboto;
+
+}
+
+
+/* HEADER */
+.jumbotron {
+    padding-top: 250px;
+    background: none;
+    color: white;
+    text-align: center;
+    font-family: Playfair Display;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.my-4 {
+    width: 100px;
+    height: 0.2px;
+    background-color: #08bab6;
+}
+
+
+
+
+p.lead {
+    font-weight: light;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: roboto;
+
+}
+
+/* BUTTON */
+
+
+
+.btn:hover {
+    background-color: #08bab6;
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-primary {
+    border-color: #08bab6;
+}
+
+.button-text {
+    color: #08bab6;
+    font-size: 1.2rem;
+    font-family: roboto;
+}
+
+/* Text Styling */
+
+
+.article h1 {
+    font-family: Playfair Display;
+    font-weight: 600;
+    padding: 10px 0px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.article-image img {
+    height: 290px;
+}
+
+.article p {
+    font-family: Roboto;
+    line-height: 1.8;
+    font-size: 14;
+    padding: 10px 0;
+}
+
+/* Article Background */
+
+.background-article {
+    background-image: url("assets/design-assets/bgk-middle.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    width: 100%;
+}
+
+.background-text {
+    color: white;
+    font-family: Roboto;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+/* Expertise */
+
+.expertise {
+    margin-right: 20%;
+}
+
+#expertise img {
+    padding: 20px;
+}
+
+.col-expertise {
+    padding: 10px;
+    border-bottom: 0.1px solid #e6e6e6;
+    line-height: 1.6;
+}
+
+.col-expertise-2 {
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.col-mid-expertise {
+    padding: 20px;
+    border-left: 0.1px solid #e6e6e6;
+    border-right: 0.1px solid #e6e6e6;
+    border-bottom: 0.1px solid #e6e6e6;
+    line-height: 1.6;
+
+}
+
+.col-mid-expertise-2 {
+    padding: 10px;
+    border-left: 0.1px solid #e6e6e6;
+    border-right: 0.1px solid #e6e6e6;
+    line-height: 1.6;
+}
+
+
+
+/* MEET THE TEAM */
+
+#theteam {
+    color: white;
+
+}
+
+#theteam h4 {
+    margin: 0;
+    padding: 5px;
+}
+
+
+.employee p {
+    padding: 0px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.employee {
+    color: white;
+    border: 0.05px solid #cccccc;
+    margin: 15px;
+}
+
+/* CONTACT */
+
+#contact h4 {
+    font-size: 25px;
+    padding-left: 0px;
+}
+
+.widthzara {
+    width: 170px;
+    height: auto;
+}
+
+#contact form {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+/* FOOTER */
+.background-footer {
+    background-image: url("assets/design-assets/bgk-footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    width: 100%;
+}
+
+#footer h4 {
+    font-size: 25px;
+    color: white;
+}
+
+#footer .col-md-4 {
+    padding: 25px;
+}
+
+#footer p {
+    color: white;
+    font-family: Roboto;
+    font-size: 1em;
+    line-height: 1.8;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .navbar {
+  
+    padding: 0px;
+}
+
+#footer .navbar .nav-link:first-child {
+    padding-left: 0;
+}
+
+.adress {
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 10px;
+}
+
+.phone {
+
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.phone img {
+    padding-right: 10px;
+}
+
+.adress img {
+    padding-right: 10px;
+}
+
+
+.adress p {
+    padding-left: 20px;
+    /* overflow: hidden; */
+}
+
+.overflow-clip {
+    text-overflow: clip;
+}
+
+.subscribe {
+    padding-top: 48px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.subscribe-button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+
+.subscribe-button:hover {
+    background-color: rgba(8, 186, 182, 1);
+}
+
+
+
+.share {
+    padding: 5px;
+}
+
+
+
+.row {
+    padding: 50px 0px;
+    margin-left: 0px;
+}
+
+
+
+.wrapper {
+    margin: 0 20%;
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 50px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+@media (max-width: 778px) {
+    .row {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 750px){
+    #footer .navbar{
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .stayintouch{
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+    .col-mid-expertise-2,
+    .col-mid-expertise,
+    .col-expertise {
+        border: none;
+    }
+}
+
+::selection{
+   background-color: #08bab6
+}
+
